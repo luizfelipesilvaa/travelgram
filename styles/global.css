@@ -21,5 +21,27 @@
 }
 
 body {
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
     font: var(--font-default);
+}
+
+.container {
+    padding-inline: 32px;
+    margin-inline: auto;
+    max-width: 1280px;
+}
+
+.bg-surface-color {
+    background-color: var(--suferce-color);
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
 }
